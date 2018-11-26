@@ -33,7 +33,7 @@ namespace TpMergeSort
             Stopwatch time = new Stopwatch();
 
             time.Start();
-            mergeSort(vetor1);
+            vetor1 = mergeSort(vetor1);
             time.Stop();
             TimeSpan time1 = time.Elapsed;
             time.Reset();
@@ -45,7 +45,7 @@ namespace TpMergeSort
             time.Reset();
 
             time.Start();
-            mergeSort(vetor3);
+            vetor3 = mergeSort(vetor3);
             time.Stop();
             TimeSpan time3 = time.Elapsed;
 
@@ -57,7 +57,7 @@ namespace TpMergeSort
 
             Imprimir(vetor3);
             Console.WriteLine("\nTempo no vetor decrescente: " + time3.TotalMilliseconds + "\n");
-
+            
 
             Console.ReadKey(true);
 
@@ -159,7 +159,6 @@ namespace TpMergeSort
             }
             return result;
         }
-
         static void Imprimir(int[] vetor)
         {
             int n = vetor.Length;
@@ -169,4 +168,5 @@ namespace TpMergeSort
             Console.Write("\n");
         }
     }
+    
 }
