@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\TpMergeSort\TpMergeSort\bin\Debug\TpMergeSort.exe.config
+C:\Users\HP\source\repos\TpMergeSort\TpMergeSort\bin\Debug\TpMergeSort.exe
+C:\Users\HP\source\repos\TpMergeSort\TpMergeSort\bin\Debug\TpMergeSort.pdb
+C:\Users\HP\source\repos\TpMergeSort\TpMergeSort\obj\Debug\TpMergeSort.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\TpMergeSort\TpMergeSort\obj\Debug\TpMergeSort.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\TpMergeSort\TpMergeSort\obj\Debug\TpMergeSort.exe
+C:\Users\HP\source\repos\TpMergeSort\TpMergeSort\obj\Debug\TpMergeSort.pdb

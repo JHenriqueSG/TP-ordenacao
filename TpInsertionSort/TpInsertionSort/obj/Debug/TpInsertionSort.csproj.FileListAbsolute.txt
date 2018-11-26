@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\TpInsertionSort\TpInsertionSort\bin\Debug\TpInsertionSort.exe.config
+C:\Users\HP\source\repos\TpInsertionSort\TpInsertionSort\bin\Debug\TpInsertionSort.exe
+C:\Users\HP\source\repos\TpInsertionSort\TpInsertionSort\bin\Debug\TpInsertionSort.pdb
+C:\Users\HP\source\repos\TpInsertionSort\TpInsertionSort\obj\Debug\TpInsertionSort.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\TpInsertionSort\TpInsertionSort\obj\Debug\TpInsertionSort.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\TpInsertionSort\TpInsertionSort\obj\Debug\TpInsertionSort.exe
+C:\Users\HP\source\repos\TpInsertionSort\TpInsertionSort\obj\Debug\TpInsertionSort.pdb

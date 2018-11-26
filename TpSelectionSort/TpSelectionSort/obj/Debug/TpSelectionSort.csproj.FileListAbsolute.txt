@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\TpSelectionSort\TpSelectionSort\bin\Debug\TpSelectionSort.exe.config
+C:\Users\HP\source\repos\TpSelectionSort\TpSelectionSort\bin\Debug\TpSelectionSort.exe
+C:\Users\HP\source\repos\TpSelectionSort\TpSelectionSort\bin\Debug\TpSelectionSort.pdb
+C:\Users\HP\source\repos\TpSelectionSort\TpSelectionSort\obj\Debug\TpSelectionSort.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\TpSelectionSort\TpSelectionSort\obj\Debug\TpSelectionSort.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\TpSelectionSort\TpSelectionSort\obj\Debug\TpSelectionSort.exe
+C:\Users\HP\source\repos\TpSelectionSort\TpSelectionSort\obj\Debug\TpSelectionSort.pdb

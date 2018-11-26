@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\TpBubbleSort\TpBubbleSort\bin\Debug\TpBubbleSort.exe.config
+C:\Users\HP\source\repos\TpBubbleSort\TpBubbleSort\bin\Debug\TpBubbleSort.exe
+C:\Users\HP\source\repos\TpBubbleSort\TpBubbleSort\bin\Debug\TpBubbleSort.pdb
+C:\Users\HP\source\repos\TpBubbleSort\TpBubbleSort\obj\Debug\TpBubbleSort.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\TpBubbleSort\TpBubbleSort\obj\Debug\TpBubbleSort.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\TpBubbleSort\TpBubbleSort\obj\Debug\TpBubbleSort.exe
+C:\Users\HP\source\repos\TpBubbleSort\TpBubbleSort\obj\Debug\TpBubbleSort.pdb

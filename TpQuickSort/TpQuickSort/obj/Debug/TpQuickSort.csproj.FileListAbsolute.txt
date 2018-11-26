@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\TpQuickSort\TpQuickSort\obj\Debug\TpQuickSort.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\TpQuickSort\TpQuickSort\obj\Debug\TpQuickSort.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\TpQuickSort\TpQuickSort\bin\Debug\TpQuickSort.exe.config
+C:\Users\HP\source\repos\TpQuickSort\TpQuickSort\bin\Debug\TpQuickSort.exe
+C:\Users\HP\source\repos\TpQuickSort\TpQuickSort\bin\Debug\TpQuickSort.pdb
+C:\Users\HP\source\repos\TpQuickSort\TpQuickSort\obj\Debug\TpQuickSort.exe
+C:\Users\HP\source\repos\TpQuickSort\TpQuickSort\obj\Debug\TpQuickSort.pdb
