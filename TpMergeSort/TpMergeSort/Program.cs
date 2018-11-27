@@ -70,70 +70,73 @@ namespace TpMergeSort
             int[] right;
             int[] result = new int[vetor.Length];
 
-            //As this is a recursive algorithm, we need to have a base case to avoid an infinite 
-            //recursion and therfore a stackoverflow  
+
+            //Como este é um algoritmo recursivo, precisamos ter um caso base para evitar um loop infinito e, portanto, um stackoverflow
             if (vetor.Length <= 1)
                 return vetor;
 
-            // The exact midpoint of our array  
+            // encontra a metade do vetor  
             int midPoint = vetor.Length / 2;
 
-            //Will represent our 'left' array  
+            //ira representar o 'lado esquerdo' do vetor  
             left = new int[midPoint];
 
-            //if array has an even number of elements, the left and right array will have the same number of elements  
+            //Se o vetor tiver um número par de elementos, o vetor da esquerda e da direita terao o mesmo número de elementos
             if (vetor.Length % 2 == 0)
                 right = new int[midPoint];
 
-            //if array has an odd number of elements, the right array will have one more element than left
+            //se o vetor tiver um número ímpar de elementos, o vetor direito terá um elemento a mais do que o esquerdo
+            
             else
                 right = new int[midPoint + 1];
 
-            //populate left array  
+            //preenche o vetor esquerdo
             for (int i = 0; i < midPoint; i++)
                 left[i] = vetor[i];
 
-            //populate right array          
+            //preenche o vetor direito          
             int x = 0;
-            //We start our index from the midpoint, as we have already populated the left array from 0 to midpont
+            //Começamos nosso índice a partir da metade, já que já preenchemos o vetor à esquerda de 0 a metade
             for (int i = midPoint; i < vetor.Length; i++)
             {
                 right[x] = vetor[i];
                 x++;
             }
 
-            //Recursively sort the left array  
+            //Recursivamente organiza o detor a esquerda 
             left = mergeSort(left);
-            //Recursively sort the right array  
+            //Recursivamente organiza o detor a direita 
             right = mergeSort(right);
-            //Merge our two sorted arrays  
+            //Mescla os dois vetores ordenados 
             result = merge(left, right);
 
             return result;
         }
 
-        //This method will be responsible for combining our two sorted arrays into one giant array  
+        //Este método será responsável por combinar nossos dois vetores ordenados em um vetor gigante
         public static int[] merge(int[] left, int[] right)
         {
             int resultLength = right.Length + left.Length;
             int[] result = new int[resultLength];
-            //  
+
             int indexLeft = 0, indexRight = 0, indexResult = 0;
 
-            //while either array still has an element  
+            //  enquanto qualquer vetor ainda tem um elemento
             while (indexLeft < left.Length || indexRight < right.Length)
             {
-                //if both arrays have elements  
+                //se ambos os vetores tiverem elementos  
                 if (indexLeft < left.Length && indexRight < right.Length)
                 {
-                    //If item on left array is less than item on right array, add that item to the result array  
+                    //Se o item no vetor à esquerda for menor que o item no vetor a direit, adicione esse item ao vetor de resultados
+
                     if (left[indexLeft] <= right[indexRight])
                     {
                         result[indexResult] = left[indexLeft];
                         indexLeft++;
                         indexResult++;
                     }
-                    // else the item in the right array wll be added to the results array  
+                    // senão o item no vetor correto será adicionado ao vetor de resultados
+
                     else
                     {
                         result[indexResult] = right[indexRight];
@@ -141,14 +144,16 @@ namespace TpMergeSort
                         indexResult++;
                     }
                 }
-                //if only the left array still has elements, add all its items to the results array  
+                //se apenas o vetor esquerdo ainda tiver elementos, adicione todos os itens ao vetor de resultados
+
                 else if (indexLeft < left.Length)
                 {
                     result[indexResult] = left[indexLeft];
                     indexLeft++;
                     indexResult++;
                 }
-                //if only the right array still has elements, add all its items to the results array  
+                //se apenas o array direito ainda tiver elementos, adicione todos os itens ao array de resultados
+
                 else if (indexRight < right.Length)
                 {
                     result[indexResult] = right[indexRight];

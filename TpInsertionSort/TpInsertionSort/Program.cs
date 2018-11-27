@@ -72,10 +72,7 @@ namespace TpInsertionSort
                 int key = vetor[i];
                 int j = i - 1;
 
-                // Move elements of arr[0..i-1], 
-                // that are greater than key,  
-                // to one position ahead of 
-                // their current position 
+                // Move elementos do vetor[0..i-1], que são maiores que key para uma posição a frente de sua atual 
                 while (j >= 0 && vetor[j] > key)
                 {
                     vetor[j + 1] = vetor[j];

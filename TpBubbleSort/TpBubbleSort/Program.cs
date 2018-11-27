@@ -71,7 +71,7 @@ namespace TpBubbleSort
                 for (int j = 0; j < n - i - 1; j++)
                     if (vetor[j] > vetor[j + 1])
                     {
-                        // swap temp and arr[i] 
+                        // troca temp e vetor[i] 
                         int temp = vetor[j];
                         vetor[j] = vetor[j + 1];
                         vetor[j + 1] = temp;
@@ -79,7 +79,7 @@ namespace TpBubbleSort
         }
 
 
-        /* Prints the array */
+        /* imprime o vetor */
         static void Imprimir(int[] vetor)
         {
             int n = vetor.Length;

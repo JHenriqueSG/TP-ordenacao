@@ -66,7 +66,7 @@ namespace TpQuickSort
         {
             int trava = vetor[maior];
 
-            int i = (menor - 1);                 // index of smaller element 
+            int i = (menor - 1);                 // invexa o menor elemento
             for (int j = menor; j < maior; j++)
             {
 
@@ -74,13 +74,13 @@ namespace TpQuickSort
                 {
                     i++;
 
-                    int temp = vetor[i];         // swap arr[i] and arr[j]  
+                    int temp = vetor[i];         // troca o vetor[i] e o vetor[j]  
                     vetor[i] = vetor[j];
                     vetor[j] = temp;
                 }
             }
 
-            int temp1 = vetor[i + 1];            // swap arr[i+1] and arr[high] (or pivot) 
+            int temp1 = vetor[i + 1];            // troca o vetor[i+1] e o vetor[maior] (ou pivo) 
             vetor[i + 1] = vetor[maior];
             vetor[maior] = temp1;
 
@@ -92,9 +92,10 @@ namespace TpQuickSort
             if (menor < maior)
             {
 
-                int pi = Partição(vetor, menor, maior);     /* pi is partitioning index, arr[pi] is now at right place */
+                int pi = Partição(vetor, menor, maior);     /*pi é o índice de particionamento, vetor[pi] está agora no lugar certo  */
 
-                QuickSort(vetor, menor, maior - 1);            // Recursively sort elements before partition and after partition 
+                QuickSort(vetor, menor, maior - 1);            // Classifica recursivamente elementos antes da partição e após a partição
+
                 QuickSort(vetor, pi + 1, maior);
             }
         }
